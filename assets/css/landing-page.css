@@ -838,8 +838,7 @@ a:focus, a:active {
 .logo-container .logo{
     overflow: hidden;
     border-radius: 50%;
-    border: 1px solid #333333;
-    width: 50px; 
+    width: 100px; 
     float: left;
 }
 
@@ -875,7 +874,7 @@ a:focus, a:active {
       margin-bottom: 20px;
       font-size: 30px;
       position: relative;
-      line-height: 24px;
+      line-height: 40px;
 }
 
 .landing-page .navbar-top {
