@@ -750,8 +750,10 @@ a:focus, a:active {
 }
 .landing-page .section-clients {
   padding: 50px 0;
-  padding-top: 35%;
-  padding-bottom: 45%;
+  /* padding-top: 35%; */
+  /* padding-bottom: 45%; */
+  /* text-align: center; */
+  height: 100%;
 }
 .landing-page .section-clients .info .icon {
   background: transparent;
@@ -863,6 +865,11 @@ a:focus, a:active {
 
 .landing-page1 .container{
   max-width: 970px;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
 } 
 
 .landing-page2 .container{
