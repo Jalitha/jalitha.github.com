@@ -25,4 +25,4 @@ function getRandomInt(max) {
 
 start = starts[getRandomInt(18)]
 
-$('#peptalk').text('Done')
+$('#peptalk').text(start)
