@@ -750,6 +750,8 @@ a:focus, a:active {
 }
 .landing-page .section-clients {
   padding: 50px 0;
+  padding-top: 35%;
+  padding-bottom: 45%;
 }
 .landing-page .section-clients .info .icon {
   background: transparent;
@@ -868,7 +870,7 @@ a:focus, a:active {
 }
 
  .header-text{
-      text-transform: uppercase;
+      /* text-transform: uppercase; */
       font-weight: 200;
       color: #333;
       margin-bottom: 20px;
