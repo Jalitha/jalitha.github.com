@@ -4,8 +4,12 @@ const hints = {
         "solution": "Answer: Sub-zero!"
     },
     "2": { 
-        "text": "This is the <b>second</b> hint",
-        "solution": "Nothing"
+        "text": "On my shiny skin your <b>envy<b> will reflect,<br> until your beauty you accept.",
+        "solution": "Answer: Mirror"
+    },
+    "8": {
+        "text": "An animal's anger and <b>wrath<b> to bare<br>But in this house I'm a cuddly bear",
+        "solution": "Answer: Teddy Bear"
     }
 }
 
