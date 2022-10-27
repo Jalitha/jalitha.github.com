@@ -6,7 +6,7 @@ body {
 #container {
     height: 100%;
     margin: auto;
-    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+    font-family: 'Gowun Dodum', sans-serif;
 }
 
 #title {
@@ -31,8 +31,8 @@ h1 {
     display: inline-block;
     background-color: #f44336;
     color: #FFFFFF;
-    padding-left: 4px;
-    padding-right: 5px;
+    padding-left: 6px;
+    padding-right: 8px;
     text-decoration: none;
     border-radius: 20px;
     opacity: 0.9;
