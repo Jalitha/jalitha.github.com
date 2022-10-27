@@ -1,13 +1,15 @@
 const hints = {
     "1": { 
-        "text": "This is the <b>first</b> hint and <br>it's really cool"
+        "text": "My <b>wrath</b> is virtual but still one to fear<br>My nemesis shouts \"Get over here!\"",
+        "solution": "Answer: Sub-zero!"
     },
     "2": { 
-        "text": "This is the <b>second</b> hint"
+        "text": "This is the <b>second</b> hint",
+        "solution": "Nothing"
     }
 }
 
-divTemplate = `<div id="hint-hintid" class="hint">hinttext</div>`
+divTemplate = `<div id="hint-hintid" class="hint"><div class="clue">hinttext</div><div class="solution"></div></div>`
 
 function loadPage() {
    
@@ -27,8 +29,7 @@ function loadPage() {
     // strike them out
     state.solved.forEach(hintId => {
         console.log("crossing off", hintId)
-        let domId = '#hint-' + hintId
-        $(domId).addClass('solved')
+        markSolved(hintId)
     });
     
     // get the qs to see if we solved a new hint
@@ -43,17 +44,32 @@ function loadPage() {
         else {
             console.log("new solve!", checkId)
             state.solved.push(checkId)
-            let domId = '#hint-' + checkId
-            $(domId).addClass('solved')
             saveState(state)
+            markSolved(checkId)
             // celebrate()
             party.confetti($('body').get(0))
+            // if it's the first - we should give welcome message?
+            let welcome = "Hello there, and welcome to Jelly's Halloween Scavenger Hunt. Read the hints, then find and scan the QR code associated with them! Scan them all and win a toy! All scavenger hunt items are in plain view, and you won't need to go through any cupboards/drawers."
+            $.toast(
+                {
+                    'text':'You got it - Nice one!', 
+                    'icon': 'success',
+                    'loader': false    
+                })
         }
     }
     
     // cross out the new div
 
 }
+
+function markSolved(hintId) {
+    let domId = '#hint-' + hintId
+    $(domId).addClass('solved')
+
+    $(domId).children('.solution').html(hints[hintId].solution)
+}
+
 
 function saveState(state) {
     window.localStorage.setItem("state", JSON.stringify(state))

@@ -12,10 +12,31 @@ body {
 #title {
     text-align: center;
     padding: 10px;
+    padding-bottom: 0px;
+}
+
+h1 {
+    font-family: 'Creepster';
+    color: white;
+    font-weight: 100;
+    font-size: 40px;
 }
 
 #help {
-    /* padding: 10px; */
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#help a {
+    display: inline-block;
+    background-color: #f44336;
+    color: #FFFFFF;
+    padding-left: 4px;
+    padding-right: 5px;
+    text-decoration: none;
+    border-radius: 20px;
+    opacity: 0.9;
+    padding-bottom: 2;
 }
 
 .hint {
@@ -24,8 +45,13 @@ body {
     margin: 15px;
     margin-bottom: 12px;
     padding: 15px;
+    font-family: 'Special Elite';
 }
 
-.solved {
+.solved .solution {
+    margin-top: 15px;    
+}
+
+.solved div:not(.solution){
     text-decoration: line-through;
 }
