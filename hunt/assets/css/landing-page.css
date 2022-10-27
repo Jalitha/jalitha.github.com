@@ -1,0 +1,30 @@
+
+body {
+    background-color: brown;
+    margin: 0;
+}
+
+#container {
+    /* background-color: #ffffff8c; */
+    /* border-radius: 10px; */
+    height: 100%;
+    margin: auto;
+    font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
+}
+
+#title {
+    text-align: center;
+    padding: 10px;
+}
+
+#help {
+    padding: 10px;
+}
+
+.hint {
+    background-color: #ffffff8c;
+    border-radius: 10px;
+    margin: 15px;
+    margin-bottom: 12px;
+    padding: 15px;
+}
