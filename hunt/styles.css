@@ -1,12 +1,9 @@
-
 body {
     background-color: brown;
     margin: 0;
 }
 
 #container {
-    /* background-color: #ffffff8c; */
-    /* border-radius: 10px; */
     height: 100%;
     margin: auto;
     font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
@@ -18,7 +15,7 @@ body {
 }
 
 #help {
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .hint {
@@ -27,4 +24,8 @@ body {
     margin: 15px;
     margin-bottom: 12px;
     padding: 15px;
+}
+
+.solved {
+    text-decoration: line-through;
 }
