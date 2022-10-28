@@ -4,13 +4,45 @@ const hints = {
         "solution": "Answer: Sub-zero!"
     },
     "2": { 
-        "text": "On my shiny skin your <b>envy<b> will reflect,<br> until your beauty you accept.",
+        "text": "On my shiny skin your <b>envy</b> will reflect,<br> until your beauty you accept.",
         "solution": "Answer: Mirror"
     },
-    "8": {
-        "text": "An animal's anger and <b>wrath<b> to bare<br>But in this house I'm a cuddly bear",
+    "3": { 
+        "text": "I am an award draped around the neck<br>Wear with <b>pride</b> and command respect",
+        "solution": "Answer: Medal"
+    },
+    "4": { 
+        "text": "Love and <b>lust</b> often go together<br>Both represented by this Flower",
+        "solution": "Answer: Rose"
+    },
+    "5": { 
+        "text": "Control your media from the couch,<br>I enable a <b>sloth</b> to binge and slouc.",
+        "solution": "Answer: Remote"
+    },
+    "6": { 
+        "text": "An invoice awaits you in the kitchen, the <b>greed</b> of a corporation is itchin'",
+        "solution": "Answer: Invoice"
+    },
+    "7": { 
+        "text": "March with <b>pride</b> wearing this flashy pair,<br>Rainbow soles to match anything you wear",
+        "solution": "Answer: Shoes"
+    },
+    "8": { 
+        "text": "<b>Envy</b> celebrates the desire to be a celebrity head<br>Find the instrument of the man in red",
+        "solution": "Answer: Guitar"
+    },
+    "9": { 
+        "text": "Hanging your clothes is a way to make them dry,<br>When <b>sloth</b> takes over, you'd rather give me a try",
+        "solution": "Answer: Dryer"
+    },
+    "10": {
+        "text": "This animal's <b>wrath<b> is hard to bare<br>But in this house I'm a cuddly bear",
         "solution": "Answer: Teddy Bear"
-    }
+    },
+    "11": { 
+        "text": "This golden peace sign doubles as a bank.<br> It's largely empty, with <b>greed</b> to thank",
+        "solution": "Answer: Piggy bank"
+    },
 }
 
 divTemplate = `<div id="hint-hintid" class="hint"><div class="clue">hinttext</div><div class="solution"></div></div>`
