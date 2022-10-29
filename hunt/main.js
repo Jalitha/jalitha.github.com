@@ -20,7 +20,7 @@ const hints = {
         "solution": "Answer: Remote"
     },
     "6": { 
-        "text": "An invoice awaits you in the kitchen, the <b>greed</b> of a corporation is itchin'",
+        "text": "An invoice awaits you in the kitchen,<br>the <b>greed</b> of a corporation is itchin'",
         "solution": "Answer: Invoice"
     },
     "7": { 
