@@ -36,7 +36,7 @@ const hints = {
         "solution": "Answer: Dryer"
     },
     "10": {
-        "text": "This animal's <b>wrath<b> is hard to bare<br>But in this house I'm a cuddly bear",
+        "text": "This animal's <b>wrath</b> is hard to bare<br>But in this house I'm a cuddly bear",
         "solution": "Answer: Teddy Bear"
     },
     "11": { 
