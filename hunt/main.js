@@ -19,10 +19,6 @@ const hints = {
         "text": "Control your media from the couch,<br>I enable a <b>sloth</b> to binge and slouc.",
         "solution": "Answer: Remote"
     },
-    "6": { 
-        "text": "An invoice awaits you in the kitchen,<br>the <b>greed</b> of a corporation is itchin'",
-        "solution": "Answer: Invoice"
-    },
     "7": { 
         "text": "March with <b>pride</b> wearing this flashy pair,<br>Rainbow soles to match anything you wear",
         "solution": "Answer: Shoes"
